@@ -15,6 +15,16 @@ void quality_form()
     int n1 = sizeof(azPosition1)/sizeof(azPosition1[0]);
 }
 
+void additional_meaning() {
+    // Obsevation 
+    const char* azAM[][2] = {
+        { "Additional", "Word" }, 
+        { "Word", "Additional" }, 
+        { "Compound", "Additional" }, 
+        { "Addtional", "Compound" }
+    };
+}
+
 int main()
 {
     return 0;
