@@ -12,7 +12,6 @@ void quality_form()
     const char* szQualityAware[][2] = {
         { }
     };
-
     int n1 = sizeof(azPosition1)/sizeof(azPosition1[0]);
 }
 
