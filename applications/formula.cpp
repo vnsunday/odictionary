@@ -23,6 +23,17 @@ void additional_meaning() {
         { "Compound", "Additional" }, 
         { "Addtional", "Compound" }
     };
+
+    const char* szKinds[] = {
+        "Manner", "Time", "Place", "Degree", "Quantity", "Interrogative", "Relative"
+    };
+    // PP - a component of reduced clause
+}
+
+void quality_exception() {
+    const char* azList[] = {
+        "present"
+    };
 }
 
 int main()
