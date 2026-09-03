@@ -32,3 +32,7 @@ Clause after wish and if only
 Relative clause
 Kinds of relative clauses
 Reduced forms of relative clauses
+
+# Sentences
+Classification: Simple, Compound, Complex, Compound-complex
+Usage-classified: Declarative, Interrogative, Imperative, Exclamatory
