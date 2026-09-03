@@ -10,3 +10,25 @@ Functions: [
 
 # Comparison
 Forms: [ Equality, Comparative, Superlative, Irregular, Special, Similarity, Difference ]
+
+# Sequence of tenses 
+Main clause
+Subordinate clause 
+Adverbial clause of time
+
+# Clauses and phrases 
+Phrases of purposes
+Adverb clauses of purposes
+Phrases of results 
+Adverb clauses of result
+Phrases of cause orr reason
+Adverb claus of cause or reason
+Phrases of concession
+Adverb clauses of concession
+As If, As Though
+It's Time, It's High Time
+Would Rather 
+Clause after wish and if only
+Relative clause
+Kinds of relative clauses
+Reduced forms of relative clauses
