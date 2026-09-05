@@ -24,7 +24,15 @@ Position: before Noun, before Pronoun(Object form)
 Kinds: Place, Time, Movement, Following Adjectives/Nouns/Verbs
 
 # Conjunction
+Function: Connecting Words/Phrases/Clauses/Sentences
+Kinds: co-ordinating, sub-ordinating
 
+# Articles
+Function: standing before Noun. 
+Kinds: Indefinite, Explicit
+
+# Tenses
+Kinds: Present Simple, Present Progressive, Present Perfect, Present Perfect Progressive, Past Simple, Past Progressive, Past Perfect, Past Perfect Progressive, Future Simple, Future Progressive, Future Perfect, Future Perfect Progressive,  
 
 # Sequence of tenses 
 Main clause
@@ -51,3 +59,13 @@ Reduced forms of relative clauses
 # Sentences
 Classification: Simple, Compound, Complex, Compound-complex
 Usage-classified: Declarative, Interrogative, Imperative, Exclamatory
+Inversion of the sentence
+
+# Conditional sentences
+Type1: Real condition in the present or future
+Type2: Unreal condition in the present 
+Type3: Unreal condition in the past
+
+# Indirect speech 
+Types: direct speech, indirect speech
+statements in indirect speech
