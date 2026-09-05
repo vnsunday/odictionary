@@ -11,6 +11,21 @@ Functions: [
 # Comparison
 Forms: [ Equality, Comparative, Superlative, Irregular, Special, Similarity, Difference ]
 
+# Action Word
+Kinds: Transitive, Intrasitive
+Kinds_: Regular, Irregular
+Kinds_2: Auxiliary, Ordinary
+
+# Phrasal Action Word
+Usage: 
+
+# Preposition
+Position: before Noun, before Pronoun(Object form)
+Kinds: Place, Time, Movement, Following Adjectives/Nouns/Verbs
+
+# Conjunction
+
+
 # Sequence of tenses 
 Main clause
 Subordinate clause 
