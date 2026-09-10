@@ -69,3 +69,25 @@ Type3: Unreal condition in the past
 # Indirect speech 
 Types: direct speech, indirect speech
 statements in indirect speech
+Quetions in indirect speech
+Yes-No question
+Wh- question
+Orders, requests, offers, advice etc. in Indirect speeches
+Orders and requests
+Offers, promises, advice, invitation, etc.
+Exclamations and Yes/No answers in indirect speeches
+Mixed types in indirect speeches
+Introductory verbs in direct and indirect speech
+
+# Passive Sentences
+Active and passtive sentences
+Passive transformation
+Special passive structures
+The Causative Form
+
+# Expression of quantity
+Some, Any
+Much, many, a lot of, a great deal of, a large number of
+Few, a few, little, a little
+All, most, some, No, all of, most of, some of, none of
+Every, each
