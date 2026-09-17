@@ -3,6 +3,10 @@
 and: strong /ænd/ weak /ənd/ weak /ən/
 Asia /ˈeɪ.ʒə/
 
+# B
+bring /brɪŋ/
+
+
 # F
 from: strong /frɒm/ weak /frəm/
 
@@ -20,3 +24,13 @@ to: strong /tuː/ weak /tʊ/ weak /tu/ weak /tə/
 # W
 welcome /ˈwel.kəm/
 where /weə $ wer/ 
+we: strong /wiː/ weak /wi/
+
+you /juː/ /jə/ /jʊ/
+fresh /freʃ/
+update /ʌpˈdeɪt/
+Asian /ˈeɪ.ʒən/
+sec.tor /ˈsektə $ -ər/
+I /aɪ/
+am: strong /æm/ weak /əm/
+your /jə; strong jɔː $ jər strong jɔːr/
