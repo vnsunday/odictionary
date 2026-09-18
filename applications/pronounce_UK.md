@@ -34,3 +34,13 @@ sec.tor /ˈsektə $ -ər/
 I /aɪ/
 am: strong /æm/ weak /əm/
 your /jə; strong jɔː $ jər strong jɔːr/
+host /həʊst $ hoʊst/
+in /ɪn/
+this /ðɪs/
+week /wiːk/
+episode /ˈep.ɪ.səʊd/
+dive /daɪv/
+into /ˈɪn.tuː/ 
+how /haʊ/
+artificial /ˌɑː.tɪˈfɪʃ.əl/ 
+intelligence /ɪnˈtel.ɪ.dʒəns/
