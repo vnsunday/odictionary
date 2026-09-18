@@ -55,7 +55,8 @@ public class SoftPronounce {
 						else {
 							word = line.substring(0, nB);
 						}
-						dict.add(new String[] { word, line });
+						dict.add(new String[] { word.replaceAll("\\.", ""), line });  // Word can contains separator (the dot .). For example: sec.tor
+						
 					}
 				}
 			}

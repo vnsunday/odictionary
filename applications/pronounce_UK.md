@@ -44,3 +44,13 @@ into /ˈɪn.tuː/
 how /haʊ/
 artificial /ˌɑː.tɪˈfɪʃ.əl/ 
 intelligence /ɪnˈtel.ɪ.dʒəns/
+is: strong /ɪz/ weak /z/ /s/
+shake /ʃeɪk/
+up /ʌp/
+stock /stɒk/
+trading /ˈtreɪ.dɪŋ/
+for /fə; strong fɔː $ fər strong fɔːr/
+retail /ˈriː.teɪl/
+in‧vest‧or /ɪnˈvestə $ -ər/
+with /wɪð/
+me /mi; strong miː/
