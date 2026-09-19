@@ -54,3 +54,13 @@ retail /ˈriː.teɪl/
 in‧vest‧or /ɪnˈvestə $ -ər/
 with /wɪð/
 me /mi; strong miː/
+discuss /dɪˈskʌs/ 
+our /aʊə $ aʊr/
+Hong Kong /ˌhɒŋ ˈkɒŋ/
+correspondent /ˌkɒr.ɪˈspɒn.dənt/
+financial /faɪˈnæn.ʃəl/ /fɪˈnæn.ʃəl/
+market /ˈmɑː.kɪt/
+specialist /ˈspeʃ.əl.ɪst/
+show /ʃəʊ/
+hi /haɪ/
+it /ɪt/
