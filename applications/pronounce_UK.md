@@ -64,3 +64,13 @@ specialist /ˈspeʃ.əl.ɪst/
 show /ʃəʊ/
 hi /haɪ/
 it /ɪt/
+nice /naɪs/
+be: strong /biː/ weak /bi/ weak /bɪ/
+here /hɪə $ hɪr/ 
+first /ˈfɜːst/
+time /taɪm/
+right /raɪt/
+yes /jes/
+will /wɪl/
+look /lʊk/
+have: strong /hæv/ weak /həv/ weak /əv/
