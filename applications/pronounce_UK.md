@@ -66,7 +66,7 @@ hi /haɪ/
 it /ɪt/
 nice /naɪs/
 be: strong /biː/ weak /bi/ weak /bɪ/
-here /hɪə $ hɪr/ 
+here /hɪə $ hɪr/
 first /ˈfɜːst/
 time /taɪm/
 right /raɪt/
@@ -74,3 +74,13 @@ yes /jes/
 will /wɪl/
 look /lʊk/
 have: strong /hæv/ weak /həv/ weak /əv/
+add /æd/
+are /ə(r)/, strong form /ɑː(r)/
+at /ət/, strong form  /æt/
+broker /ˈbrəʊkə(r)/
+brokers
+china /ˈtʃaɪnə/
+episodes
+future /ˈfjuːtʃə(r)/
+great /ɡreɪt/
+it's /ɪts/

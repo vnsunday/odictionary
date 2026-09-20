@@ -13,6 +13,25 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SoftPronounce {
+	
+	static void loadFileText(String file, List<String> words) throws IOException {
+		BufferedReader rd = new BufferedReader(new FileReader(file));
+		
+		String line;
+		while ( (line = rd.readLine()) != null) {
+			String[] azw = line.split("[,; \\.\\?]+");
+			
+			for (int i = 0; i< azw.length; i++) {
+				int index = Collections.binarySearch(words, azw[i].toLowerCase());
+				
+				if (index < 0) {
+					index = - (index + 1);
+					words.add(index, azw[i].toLowerCase());
+				}				
+			}
+		}
+		rd.close();
+	}
 
 	public static void main(String[] args) {
 
@@ -20,15 +39,35 @@ public class SoftPronounce {
 			System.out.println(String.format("%d: %s", i, args[i]));
 		}
 		if (args.length < 2){
-			System.out.println("Usage: filein fileout");
+			System.out.println("Usage1: SoftPronounce filein fileout");
+			System.out.println("Usage2: SoftPronounce findmissing file_pronounce filecontent");
+			System.out.println("    findmissing: scan text content (filecontent) and find missing words (words which are not defined in file_pronounce). Listing them all.");
 			return;
+		}
+		
+		/*============================================================
+		 * Process 
+		 * 
+		 *============================================================*/
+		String filepr = args[0];
+		String fileout = args[1];
+		String filetxt = null;
+		String operation = null;
+		if (args.length == 3) {
+			// Parameter 3
+			operation = args[0];
+			filepr = args[1];
+			filetxt = args[2];
+			
+			if ("findmissing".compareToIgnoreCase(operation) != 0) {
+				System.out.println("Parameters incorrect");
+				return;
+			}
 		}
 		
 		/*============================================================
 		 * 
 		 *============================================================*/
-		String filepr = args[0];
-		String fileout = args[1];
 		char letter;
 		List<String[]> dict = new ArrayList<String[]>();
 		
@@ -39,7 +78,6 @@ public class SoftPronounce {
 			while ((line = br.readLine()) != null) {
 				// Parsing
 				if (line.isEmpty()) {
-					
 				}
 				else if (line.charAt(0) == '#') {
 					// Skip
@@ -50,14 +88,16 @@ public class SoftPronounce {
 									
 					if (nB >= 0) {
 						if (nC >= 0 && nC < nB) {
-							word = line.substring(0, nC);							
+							word = line.substring(0, nC).trim();							
 						}
 						else {
-							word = line.substring(0, nB);
+							word = line.substring(0, nB).trim();
 						}
-						dict.add(new String[] { word.replaceAll("\\.", ""), line });  // Word can contains separator (the dot .). For example: sec.tor
-						
+					} else {
+						word = line.trim(); // Accept words without a pronounce (for other operations). eg a plural form of a word: episodes					
 					}
+					
+					dict.add(new String[] { word.replaceAll("\\.", "").toLowerCase(), line });  // Word can contains separator (the dot .). For example: sec.tor
 				}
 			}
 			
@@ -69,25 +109,52 @@ public class SoftPronounce {
 				}
 			});
 			
-			// Write to the output File
-			letter = ' ';
-			BufferedWriter wr = Files.newBufferedWriter(Paths.get(fileout));
-			for (int i=0; i<dict.size(); i++) {
-				
-				char ch = Character.toUpperCase( dict.get(i)[0].charAt(0));
-				
-				if (ch != letter) {
-					letter = ch;
-					wr.write(String.format("# %c", letter));
+			// OP1. Sorting
+			if (operation == null) {
+				// Write to the output File
+				letter = ' ';
+				BufferedWriter wr = Files.newBufferedWriter(Paths.get(fileout));
+				for (int i=0; i<dict.size(); i++) {
+					
+					char ch = Character.toUpperCase( dict.get(i)[0].charAt(0));
+					
+					if (ch != letter) {
+						letter = ch;
+						wr.write(String.format("# %c", letter));
+						wr.newLine();
+					}
+					wr.write(dict.get(i)[1]);
 					wr.newLine();
 				}
-				wr.write(dict.get(i)[1]);
-				wr.newLine();
+				wr.close();
+				br.close();
+				
+				System.out.println("FINISH SORTING");
 			}
-			wr.close();
-			br.close();
-			
-			System.out.println("FINISH");
+			else if ("findmissing".compareToIgnoreCase(operation) == 0) {
+				// Find 
+				List<String> textWords = new ArrayList<String>();
+				loadFileText(filetxt, textWords);
+				System.out.println(String.format("Load Context: %d", textWords.size()));
+				
+				Comparator<String[]> bookComp = Comparator.comparing( (String[] u) -> u[0]);
+				
+				for (int i=0; i< textWords.size(); i++) {
+					int index = Collections.binarySearch(dict, new String[] {textWords.get(i), ""}, bookComp);
+					
+					if (index >= 0) {
+						// System.out.println(String.format("%s FOUND", textWords.get(i)));
+					}
+					else {
+						System.out.println(textWords.get(i));
+					}
+				}
+				
+				System.out.println("FINISH find missing");
+			}
+			else {
+				System.out.println("Parameters are not correct.");
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
