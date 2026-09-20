@@ -84,3 +84,13 @@ episodes
 future /ˈfjuːtʃə(r)/
 great /ɡreɪt/
 it's /ɪts/
+looked
+many /ˈmeni/
+more /mɔː(r)/
+on /ɒn/
+piece /piːs/
+racing /ˈreɪsɪŋ/
+recent /ˈriːsnt/
+so /səʊ/
+some /sʌm/
+that /ðæt/
