@@ -154,3 +154,10 @@ these /ðiːz/
 those /ðəʊz/
 two /tuː/
 way /weɪ/
+what /wɒt/
+what's /wɒts/
+which /wɪtʃ/
+while /waɪl/
+yeah /jeə/
+year /jɪər/ r: light-weak
+years
