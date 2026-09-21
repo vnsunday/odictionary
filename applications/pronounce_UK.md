@@ -94,3 +94,23 @@ recent /ˈriːsnt/
 so /səʊ/
 some /sʌm/
 that /ðæt/
+A /eɪ/
+already /ɔːlˈred.i/
+analysis /əˈnæl.ə.sɪs/
+arguably /ˈɑːɡ.ju.ə.bli/
+around /əˈraʊnd/
+been /biːn/
+being /ˈbiː.ɪŋ/
+biggest
+brokerage /ˈbrəʊ.kər.ɪdʒ/
+brokerages
+but: strong /bʌt/ weak /bət/
+can: strong /kæn/ weak /kən/
+capability /ˌkeɪ.pəˈbɪl.ə.ti/
+capabilities
+do: /də/ /du/ /duː/
+example /ɪɡˈzɑːm.pəl/  ə:light => pəl ~ pl
+examples
+extent /ɪkˈstent/
+few /fjuː/
+function /ˈfʌŋk.ʃən/ ə:light => ʃən ~ ʃn
