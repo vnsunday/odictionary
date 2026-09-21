@@ -114,3 +114,23 @@ examples
 extent /ɪkˈstent/
 few /fjuː/
 function /ˈfʌŋk.ʃən/ ə:light => ʃən ~ ʃn
+functions
+give /ɡɪv/
+had: strong /hæd/ weak /həd/ /əd/
+has: strong /hæz/ weak /həz/ /əz/
+having
+holdings: [US] /ˈhoʊl·dɪŋz/
+idea /aɪˈdɪə/
+implement /ˈɪm.plɪ.ment/
+implementing
+Incorporated /ɪnˈkɔː.pər.eɪ.tɪd/ pər: ə light
+instance /ˈɪn.stəns/
+integrated /ˈɪn.tɪ.ɡreɪ.tɪd/
+interesting /ˈɪn.tres.tɪŋ/
+investment /ɪnˈvest.mənt/
+like /laɪk/
+listener /ˈlɪs.ən.ər/ s.ən: ə light; ər: r light
+listeners
+most /məʊst/
+new /njuː/
+news /njuːz/
