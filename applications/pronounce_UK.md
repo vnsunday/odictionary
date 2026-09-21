@@ -134,3 +134,23 @@ listeners
 most /məʊst/
 new /njuː/
 news /njuːz/
+not /nɒt/
+now /naʊ/
+of: weak /əv/ strong /ɒv/
+one /wʌn/
+operating /ˈɒp.ər.eɪ.tɪŋ/ p.ər: ə light
+or: strong /ɔːr/ weak /ər/
+platform /ˈplæt.fɔːm/
+platforms
+portfolio /ˌpɔːtˈfəʊ.li.əʊ/
+quick /kwɪk/
+rundown /ˈrʌn.daʊn/
+securities /sɪˈkjʊərətiz/
+spoke /spəʊk/
+summary /ˈsʌm.ər.i/ m.ə: ə light-weak 
+summaries
+their /ðeər/ r: light-weak 
+these /ðiːz/
+those /ðəʊz/
+two /tuː/
+way /weɪ/
