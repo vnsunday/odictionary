@@ -221,3 +221,15 @@ significantly /sɪɡˈnɪf.ɪ.kənt.li/ kə: ə light-weak
 something /ˈsʌm.θɪŋ/
 stock /stɒk/
 stocks
+strategy /ˈstræt.ə.dʒi/
+system /ˈsɪs.təm/
+that's /ðæts/
+them: strong /ðem/ weak /ðəm/
+they /ðeɪ/
+thing /θɪŋ/
+trade /treɪd/
+use /juːz/
+user /ˈjuː.zər/ r light-weak
+when /wen/
+without /wɪˈðaʊt/
+write /raɪt/
