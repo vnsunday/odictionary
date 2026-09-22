@@ -181,3 +181,23 @@ because /bɪˈkəz/ /bɪˈkɒz/
 bridge /brɪdʒ/
 brokers'
 chat /tʃæt/
+chatbot /ˈtʃæt.bɒt/
+claw /klɔː/
+code /kəʊd/
+complex /ˈkɒm.pleks/ /kəmˈpleks/
+connected /kəˈnek.tɪd/
+database /ˈdeɪ.tə.beɪs/
+directly /daɪˈrekt.li/ /dɪˈrekt.li/
+entire /ɪnˈtaɪər/ r light-weak
+essentially /ɪˈsen.ʃəl.i/ ə light-weak
+fundamental /ˌfʌn.dəˈmen.təl/ təl: ə light-weak
+Gemini /ˈdʒem.ɪ.naɪ/
+Google /ˈɡuː.ɡəl/ ə light-weak
+grab /ɡræb/
+grabs
+happen /ˈhæp.ən/ ə light-weak
+hard /hɑːd/
+information /ˌɪn.fəˈmeɪ.ʃən/ ʃən: ə light-weak
+investor /ɪnˈves.tər/ r light-weak
+investors
+know /nəʊ/
