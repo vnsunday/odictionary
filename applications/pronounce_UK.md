@@ -161,3 +161,23 @@ while /waɪl/
 yeah /jeə/
 year /jɪər/ r: light-weak
 years
+act /ækt/
+acts
+actually /ˈæk.tʃu.ə.li/
+agent /ˈeɪ.dʒənt/ dʒə: ə light-weak
+agents
+all /ɔːl/
+allow /əˈlaʊ/
+allows
+an: strong /æn/ weak /ən/
+another: /əˈnʌð.ər/ r: light-weak
+anyone /ˈen.i.wʌn/
+available /əˈveɪ.lə.bəl/ bəl: ə light-weak
+average /ˈæv.ər.ɪdʒ/ ə light-weak
+barrier /ˈbær.i.ər/ ər: r light-weak
+basic /ˈbeɪ.sɪk/
+basically /ˈbeɪ.sɪ.kəl.i/ ə light-weak
+because /bɪˈkəz/ /bɪˈkɒz/
+bridge /brɪdʒ/
+brokers'
+chat /tʃæt/
