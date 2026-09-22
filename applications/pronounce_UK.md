@@ -201,3 +201,23 @@ information /ˌɪn.fəˈmeɪ.ʃən/ ʃən: ə light-weak
 investor /ɪnˈves.tər/ r light-weak
 investors
 know /nəʊ/
+happened
+lower /ˈləʊ.ər/ r light-weak
+lowers
+mean /miːn/
+means /miːnz/
+necessarily /nes.əˈser.əl.i/ r.əl: ə light-weak
+open /ˈəʊ.pən/ pən: ə light-weak
+perform /pəˈfɔːm/
+process /ˈprəʊ.ses/
+programming /ˈprəʊ.ɡræm.ɪŋ/
+readily /ˈred.əl.i/ ə light-weak
+require /rɪˈkwaɪər/ ər: r light-weak
+requiring
+revolutionary /ˌrev.əˈluː.ʃən.ər.i/ ʃən.ər: 2 ə light-weak
+rise /raɪz/
+scratch /skrætʃ/
+significantly /sɪɡˈnɪf.ɪ.kənt.li/ kə: ə light-weak
+something /ˈsʌm.θɪŋ/
+stock /stɒk/
+stocks
