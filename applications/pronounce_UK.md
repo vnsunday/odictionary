@@ -233,3 +233,23 @@ user /ˈjuː.zər/ r light-weak
 when /wen/
 without /wɪˈðaʊt/
 write /raɪt/
+clear /klɪər/ r light-weak
+adopt /əˈdɒpt/
+adopting
+ahead /əˈhed/
+begin /bɪˈɡɪn/
+between /bɪˈtwiːn/
+come /kʌm/
+comes
+compare /kəmˈpeər/ r light-weak
+compared
+connectivity /ˌkɒn.ekˈtɪv.ə.ti/
+digital /ˈdɪdʒ.ɪ.təl/ ə light-weak
+distinguish /dɪˈstɪŋ.ɡwɪʃ/
+even /ˈiː.vən/ ə light-weak
+focused /ˈfəʊ.kəst/
+if /ɪf/
+institutional /ˌɪn.stɪˈtʃuː.ʃən.əl/ ʃən.əl: 2 ə light-weak
+instrument /ˈɪn.strə.mənt/
+instruments
+interactive /ˌɪn.təˈræk.tɪv/
