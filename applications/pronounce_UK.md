@@ -291,3 +291,24 @@ general /ˈdʒen.ər.əl/ ər.əl: 2 ə light-weak
 global /ˈɡləʊ.bəl/ bə: ə light-weak
 hub /hʌb/
 instead /ɪnˈsted/
+language /ˈlæŋ.ɡwɪdʒ/
+laptop /ˈlæp.tɒp/
+large /lɑːdʒ/
+lead /liːd/
+mega /ˈme.ɡə/
+model /ˈmɒd.əl/ ə light-weak
+out /aʊt/
+phone /fəʊn/
+power /paʊər/ r light-weak
+powered
+probably /ˈprɒb.ə.bli/
+quite /kwaɪt/
+rolling /ˈrəʊ.lɪŋ/
+savvy /ˈsæv.i/
+space /speɪs/
+speaking /ˈspiː.kɪŋ/
+talk /tɔːk/
+tiger /ˈtaɪ.ɡər/ r light-weak
+trying /ˈtraɪ.ɪŋ/
+use /juːz/
+using
