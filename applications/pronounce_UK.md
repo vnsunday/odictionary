@@ -271,3 +271,23 @@ west /west/
 western /ˈwes.tən/
 world /wɜːld/
 would: strong /wʊd/ weak /wəd/ weak /əd/
+about /əˈbaʊt/
+aggressive /əˈɡres.ɪv/
+also /ˈɔːl.səʊ/
+assist /əˈsɪst/
+assistant /əˈsɪs.tənt/ tə: ə light-weak
+assistants
+bit /bɪt/
+by /baɪ/
+Chinese /tʃaɪˈniːz/
+company /ˈkʌm.pə.ni/
+companies
+definitely /ˈdef.ɪ.nət.li/
+done /dʌn/
+feeling /ˈfiː.lɪŋ/
+found /faʊnd/
+founded
+general /ˈdʒen.ər.əl/ ər.əl: 2 ə light-weak
+global /ˈɡləʊ.bəl/ bə: ə light-weak
+hub /hʌb/
+instead /ɪnˈsted/
