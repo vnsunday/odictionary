@@ -253,3 +253,21 @@ institutional /ˌɪn.stɪˈtʃuː.ʃən.əl/ ʃən.əl: 2 ə light-weak
 instrument /ˈɪn.strə.mənt/
 instruments
 interactive /ˌɪn.təˈræk.tɪv/
+lot /lɒt/
+mention /ˈmen.ʃən/ ə light-weak
+mentioned
+native /ˈneɪ.tɪv/
+need /niːd/
+ones
+option /ˈɒp.ʃən/ ə light-weak
+rest /rest/
+say /seɪ/
+security /sɪˈkjʊə.rə.ti/
+they're /ðeər/
+think /θɪŋk/
+throat /θrəʊt/
+were: strong /wɜːr/ weak /wər/ r light-weak
+west /west/
+western /ˈwes.tən/
+world /wɜːld/
+would: strong /wʊd/ weak /wəd/ weak /əd/
