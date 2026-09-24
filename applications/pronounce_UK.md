@@ -312,3 +312,23 @@ tiger /ˈtaɪ.ɡər/ r light-weak
 trying /ˈtraɪ.ɪŋ/
 use /juːz/
 using
+announce /əˈnaʊns/
+bank /bæŋk/
+book /bʊk/
+books
+build /bɪld/
+close /kləʊz/
+effect /ɪˈfekt/
+effects
+firm /fɜːm/
+help /help/
+institution /ˌɪn.stɪˈtʃuː.ʃən/ ʃə: ə light-weak
+institutions
+just /dʒʌst/
+kind /kaɪnd/
+labor /ˈleɪ.bər/ ər: r small
+demanding /dɪˈmɑːn.dɪŋ/
+launch /lɔːntʃ/
+launched
+make /meɪk/
+manual /ˈmæn.ju.əl/
