@@ -313,6 +313,7 @@ trying /ˈtraɪ.ɪŋ/
 use /juːz/
 using
 announce /əˈnaʊns/
+announced
 bank /bæŋk/
 book /bʊk/
 books
@@ -332,3 +333,22 @@ launch /lɔːntʃ/
 launched
 make /meɪk/
 manual /ˈmæn.ju.əl/
+maybe /ˈmeɪ.bi/
+originally /əˈrɪdʒ.ən.əl.i/ ən.ə: 2 ə small
+package /ˈpæk.ɪdʒ/
+pitch /pɪtʃ/
+really /ˈrɪə.li/
+recently /ˈriː.sənt.li/ ən: ə small
+replace /rɪˈpleɪs/
+report /rɪˈpɔːt/
+reports
+seen /siːn/
+side /saɪd/
+story /ˈstɔː.ri/
+task /tɑːsk/
+tasks
+they've /ðeɪv/
+very /ˈver.i/
+we've /ˈwiːv/
+work /wɜːk/
+writing /ˈraɪ.tɪŋ/
