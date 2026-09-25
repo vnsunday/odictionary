@@ -373,3 +373,22 @@ get /ɡet/
 give /ɡɪv/
 gives
 goal /ɡəʊl/
+graduate /ˈɡrædʒ.u.ət/
+graduates
+impact /ˈɪm.pækt/
+job /dʒɒb/
+jobs
+let /let/
+people /ˈpiː.pəl/ ə small
+pick /pɪk/
+real /rɪəl/
+risky /ˈrɪs.ki/
+said /sed/
+save /seɪv/
+sound /saʊnd/
+sounds
+standard /ˈstæn.dəd/
+thought /θɔːt/
+ultimate /ˈʌl.tɪ.mət/
+university /ˌjuː.nɪˈvɜː.sə.ti/
+wave /weɪv/
