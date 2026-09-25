@@ -352,3 +352,24 @@ very /ˈver.i/
 we've /ˈwiːv/
 work /wɜːk/
 writing /ˈraɪ.tɪŋ/
+advice /ədˈvaɪs/
+advices
+automate /ˈɔː.tə.meɪt/
+back /bæk/
+banking /ˈbæŋ.kɪŋ/
+big /bɪɡ/
+chartered /ˈtʃɑː.təd/
+coming /ˈkʌm.ɪŋ/
+complete /kəmˈpliːt/
+cost /kɒst/
+costs
+employment /ɪmˈplɔɪ.mənt/
+exactly /ɪɡˈzækt.li/
+expected /ɪkˈspek.tɪd/
+feel /fiːl/
+firm /fɜːm/
+firms
+get /ɡet/
+give /ɡɪv/
+gives
+goal /ɡəʊl/
