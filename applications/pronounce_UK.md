@@ -392,3 +392,24 @@ thought /θɔːt/
 ultimate /ˈʌl.tɪ.mət/
 university /ˌjuː.nɪˈvɜː.sə.ti/
 wave /weɪv/
+able /ˈeɪ.bəl/ ə small
+black /blæk/
+box /bɒks/
+catch /kætʃ/
+else /els/
+everywhere /ˈev.ri.weər/ ər: r small
+evolve /ɪˈvɒlv/
+evolving
+existing /ɪɡˈzɪs.tɪŋ/
+fast /fɑːst/
+framework /ˈfreɪm.wɜːk/ 
+frameworks
+giving /ˈɡɪv.ɪŋ/
+meet /miːt/
+mostly /ˈməʊst.li/
+play /pleɪ/
+playing
+ponder /ˈpɒn.dər/ r small
+regulate /ˈreɡ.jə.leɪt/
+regulator /ˈreɡ.jə.leɪ.tər/ tər: r small
+regulators
