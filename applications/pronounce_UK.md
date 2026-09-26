@@ -425,3 +425,28 @@ technology /tekˈnɒl.ə.dʒi/
 telling /ˈtel.ɪŋ/
 there /ðeər/ r small
 updating
+answer /ˈɑːn.sər/ r small
+assess /əˈses/
+bot /bɒt/
+bots
+buy /baɪ/
+design /dɪˈzaɪn/
+does: strong /dʌz/ weak /dəz/
+fact /fækt/
+gatekeeper /ˈɡeɪtˌkiː.pər/ ər: r small
+informational /ɪn.fəˈmeɪ.ʃən.əl/ ən.ə: 2 ə small
+left /left/
+mitigate /ˈmɪt.ɪ.ɡeɪt/
+never /ˈnev.ər/ r: small
+offer /ˈɒf.ər/ r: small
+own /əʊn/
+sell /sel/
+should: strong /ʃʊd/ weak /ʃəd/
+specific /spəˈsɪf.ɪk/
+straight /streɪt/
+talked
+themselves /ðəmˈselvz/
+told /təʊld/
+tweak /twiːk/
+us: strong /ʌs/ weak /əs/
+whether /ˈweð.ər/ r small
