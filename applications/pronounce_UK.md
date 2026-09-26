@@ -413,3 +413,15 @@ ponder /ˈpɒn.dər/ r small
 regulate /ˈreɡ.jə.leɪt/
 regulator /ˈreɡ.jə.leɪ.tər/ tər: r small
 regulators
+regulatory /ˌreɡ.jəˈleɪ.tər.i/ tər: ə small
+risk /rɪsk/
+saying /ˈseɪ.ɪŋ/
+see /siː/
+seem /siːm/
+Singapore /ˌsɪŋ.əˈpɔːr/ r small
+sometimes /ˈsʌm.taɪmz/
+still /stɪl/
+technology /tekˈnɒl.ə.dʒi/
+telling /ˈtel.ɪŋ/
+there /ðeər/ r small
+updating
