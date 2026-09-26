@@ -450,3 +450,23 @@ told /təʊld/
 tweak /twiːk/
 us: strong /ʌs/ weak /əs/
 whether /ˈweð.ər/ r small
+ability /əˈbɪl.ə.ti/
+adviser /ədˈvaɪ.zər/ r small
+advisor: adviser
+before /bɪˈfɔːr/ r small
+behalf /bɪˈhɑːf/
+button /ˈbʌt.ən/ ə small
+certain /ˈsɜː.tən/ ə small
+client /ˈklaɪ.ənt/ ə small
+criterion /kraɪˈtɪə.ri.ən/
+criteria /kraɪˈtɪə.ri.ə/
+currently /ˈkʌr.ənt.li/ ə small
+down /daʊn/
+execute /ˈek.sɪ.kjuːt/
+execution /ˌek.sɪˈkjuː.ʃən/ ən: ə small
+go /ɡəʊ/
+hopefully /ˈhəʊp.fəl.i/ fə: ə small
+human /ˈhjuː.mən/
+inevitable /ɪˈnev.ɪ.tə.bəl/ bəl: ə small
+license /ˈlaɪ.səns/ əns: ə small
+make /meɪk/
