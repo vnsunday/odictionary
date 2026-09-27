@@ -470,3 +470,17 @@ human /ˈhjuː.mən/
 inevitable /ɪˈnev.ɪ.tə.bəl/ bəl: ə small
 license /ˈlaɪ.səns/ əns: ə small
 make /meɪk/
+makes
+market /ˈmɑː.kɪt/
+markets
+no /nəʊ/
+part /pɑːt/
+point /pɔɪnt/
+press /pres/
+program /ˈprəʊ.ɡræm/
+realistically /ˌrɪəˈlɪs.tɪ.kəl.i/ kə: ə small
+road /rəʊd/
+sense /sens/
+through /θruː/
+trade /treɪd/
+trades
