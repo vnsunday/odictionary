@@ -534,3 +534,23 @@ try /traɪ/
 underestimate /ˌʌn.dəˈres.tɪ.meɪt/
 was: strong /wɒz/ weak /wəz/
 who /huː/
+arbitrage /ˌɑː.bɪˈtrɑːʒ/
+contribute: /kənˈtrɪb.juːt/ /ˈkɒn.trɪ.bjuːt/
+contributing
+doing /ˈduː.ɪŋ/
+economist /iˈkɒn.ə.mɪst/
+everyone's
+everything /ˈev.ri.θɪŋ/
+factor /ˈfæk.tər/ r small
+factors
+high /haɪ/
+frequency /ˈfriː.kwən.si/
+line /laɪn/
+little /ˈlɪt.əl/ əl: ə small
+margin /ˈmɑː.dʒɪn/
+margins
+move /muːv/
+negate /nɪˈɡeɪt/
+negates
+priced
+profit /ˈprɒf.ɪt/
