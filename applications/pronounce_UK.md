@@ -507,3 +507,30 @@ tell /tel/
 trader /ˈtreɪ.dər/ r small
 traders
 well /wel/
+bear /beər/ r small
+blame /bleɪm/
+came /keɪm/
+complicated /ˈkɒm.plɪ.keɪ.tɪd/
+concern /kənˈsɜːn/
+different /ˈdɪf.ər.ənt/ ər.ə: 2 ə small
+discovery /dɪˈskʌv.ər.i/ v.ə: ə small
+don't /dəʊnt/
+efficient /ɪˈfɪʃ.ənt/ ʃ.ə: ə small
+everyone /ˈev.ri.wʌn/
+experiment /ɪkˈsper.ɪ.mənt/
+failed /feɪld/
+gatekeeping /ˈɡeɪt.kiː.pɪŋ/
+hand /hænd/
+losing
+manager /ˈmæn.ɪ.dʒər/ r small
+other /ˈʌð.ər/ r small
+overreact /ˌəʊ.və.riˈækt/
+price /praɪs/
+rational /ˈræʃ.ən.əl/ ən.ə: 2 ə small
+responsibility /rɪˌspɒn.sɪˈbɪl.ə.ti/
+situation /ˌsɪtʃ.uˈeɪ.ʃən/ ʃə: ə small
+talking
+try /traɪ/
+underestimate /ˌʌn.dəˈres.tɪ.meɪt/
+was: strong /wɒz/ weak /wəz/
+who /huː/
