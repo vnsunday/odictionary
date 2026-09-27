@@ -561,3 +561,23 @@ swings
 technically /ˈtek.nɪ.kəl.i/ kə: ə small
 theoretical /θɪəˈret.ɪ.kəl/ kəl: ə small
 there's /ðeəz/
+bounds /baʊndz/
+bound /baʊnd/
+competition /ˌkɒm.pəˈtɪʃ.ən/ ʃ.ə: ə small
+couple /ˈkʌp.əl/ ə small
+debate /dɪˈbeɪt/
+eight /eɪt/
+end /end/
+famous /ˈfeɪ.məs/
+good /ɡʊd/
+I'm /aɪm/
+its /ɪts/
+key /kiː/
+last /lɑːst/
+leap /liːp/
+leaps
+limited /ˈlɪm.ɪ.tɪd/
+major /ˈmeɪ.dʒər/ r small
+much /mʌtʃ/
+November /nəʊˈvem.bər/ r small
+past /pɑːst/
