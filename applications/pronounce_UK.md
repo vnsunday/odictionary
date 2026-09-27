@@ -484,3 +484,26 @@ sense /sens/
 through /θruː/
 trade /treɪd/
 trades
+as: strong /æz/ weak /əz/
+believe /bɪˈliːv/
+case /keɪs/
+certainly /ˈsɜː.tən.li/ tə: ə small
+could: strong /kʊd/ weak /kəd/
+create /kriˈeɪt/
+hubs
+issue /ˈɪʃ.uː/ /ˈɪs.juː/
+lose /luːz/
+low /ləʊ/
+main /meɪn/
+money /ˈmʌn.i/
+player /ˈpleɪ.ər/ r small
+players
+same /seɪm/
+small /smɔːl/
+speak /spiːk/
+start /stɑːt/
+systemic /sɪˈstem.ɪk/
+tell /tel/
+trader /ˈtreɪ.dər/ r small
+traders
+well /wel/
