@@ -554,3 +554,10 @@ negate /nɪˈɡeɪt/
 negates
 priced
 profit /ˈprɒf.ɪt/
+room /ruːm/ /rʊm/
+shrink /ʃrɪŋk/
+swing /swɪŋ/
+swings
+technically /ˈtek.nɪ.kəl.i/ kə: ə small
+theoretical /θɪəˈret.ɪ.kəl/ kəl: ə small
+there's /ðeəz/
