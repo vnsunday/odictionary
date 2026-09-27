@@ -581,3 +581,12 @@ major /ˈmeɪ.dʒər/ r small
 much /mʌtʃ/
 November /nəʊˈvem.bər/ r small
 past /pɑːst/
+person /ˈpɜː.sən/ ən: ə small
+previously /ˈpriː.vi.əs.li/
+program /ˈprəʊ.ɡræm/
+programs
+strategy /ˈstræt.ə.dʒi/
+strategies
+suspicious /səˈspɪʃ.əs/
+wonder /ˈwʌn.dər/
+wondering
