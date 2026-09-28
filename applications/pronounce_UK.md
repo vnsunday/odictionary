@@ -615,3 +615,29 @@ version /ˈvɜː.ʃən/ /ˈvɜː.ʒən/
 versions
 want /wɒnt/
 weeks
+attempt /əˈtempt/
+attempts
+convincing /kənˈvɪn.sɪŋ/
+doesn't /ˈdʌz.ənt/ ə small
+fare /feər/ r small
+fared
+frame /freɪm/ 
+grok /ɡrɒk/
+impressive /ɪmˈpres.ɪv/
+least /liːst/
+lost /lɒst/
+made /meɪd/
+only /ˈəʊn.li/
+others: us /ˈʌð·ərz/
+over /ˈəʊ.vər/ r small
+positive /ˈpɒz.ə.tɪv/
+rely /rɪˈlaɪ/
+result /rɪˈzʌlt/
+results
+return /rɪˈtɜːn/
+returns: US /rɪˈtɜrnz/
+six /sɪks/
+standout /ˈstænd.aʊt/
+why /waɪ/
+winner /ˈwɪn.ər/ r small
+worst /wɜːst/
