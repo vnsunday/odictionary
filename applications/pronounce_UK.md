@@ -590,3 +590,28 @@ strategies
 suspicious /səˈspɪʃ.əs/
 wonder /ˈwʌn.dər/
 wondering
+absolutely /ˌæb.səˈluːt.li/
+alpha /ˈæl.fə/
+any /ˈen.i/
+arena /əˈriː.nə/
+call /kɔːl/
+called
+decision /dɪˈsɪʒ.ən/ ə small
+decisions
+dollar /ˈdɒl.ər/ r small
+dollars
+free /friː/
+given /ˈɡɪv.ən/ ə small
+involvement /ɪnˈvɒlv.mənt/
+leverage /ˈliː.vər.ɪdʒ/ ər: ə small
+models
+organized /ˈɔː.ɡən.aɪzd/ ɡə: ə small
+perhaps: /pəˈhæps/ /præps/
+risk-averse /ˈrɪsk.əˌvɜːs/
+risks
+take /teɪk/
+test /test/
+version /ˈvɜː.ʃən/ /ˈvɜː.ʒən/
+versions
+want /wɒnt/
+weeks
