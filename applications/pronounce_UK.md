@@ -641,3 +641,15 @@ standout /ˈstænd.aʊt/
 why /waɪ/
 winner /ˈwɪn.ər/ r small
 worst /wɜːst/
+amount /əˈmaʊnt/
+aspect /ˈæs.pekt/
+aspects
+assessment /əˈses.mənt/
+capture /ˈkæp.tʃər/ r small
+choice /tʃɔɪs/
+data /ˈdeɪ.tə/
+fan /fæn/
+number /ˈnʌm.bər/ r small
+personal /ˈpɜː.sən.əl/ ən.ə: 2 ə small
+than: strong /ðæn/ weak /ðən/
+whereas /weərˈæz/
