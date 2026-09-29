@@ -653,3 +653,29 @@ number /ˈnʌm.bər/ r small
 personal /ˈpɜː.sən.əl/ ən.ə: 2 ə small
 than: strong /ðæn/ weak /ðən/
 whereas /weərˈæz/
+again /əˈɡen/ /əˈɡeɪn/
+always /ˈɔːl.weɪz/
+ask /ɑːsk/
+change /tʃeɪndʒ/
+check /tʃek/
+condition /kənˈdɪʃ.ən/ ʃ.ə: ə small
+conditions
+discussion /dɪˈskʌʃ.ən/ ʃ.ə: ə small
+double /ˈdʌb.əl/ ə small
+during /ˈdʒʊə.rɪŋ/
+getting
+got /ɡɒt/
+lucky /ˈlʌk.i/
+making /ˈmeɪ.kɪŋ/
+moved /muːvd/
+obviously /ˈɒb.vi.əs.li/
+once /wʌns/
+podcast /ˈpɒd.kɑːst/
+run /rʌn/
+taro /ˈtær.əʊ/
+thank /θæŋk/
+top /tɒp/ 
+trust /trʌst/
+wise /waɪz/
+word /wɜːd/
+you're: strong /jɔːr/ weak /jər/
