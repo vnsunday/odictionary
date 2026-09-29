@@ -679,3 +679,40 @@ trust /trʌst/
 wise /waɪz/
 word /wɜːd/
 you're: strong /jɔːr/ weak /jər/
+com- /kɒm-/
+com
+deliver /dɪˈlɪv.ər/ r small
+every /ˈev.ri/
+inbox /ˈɪn.bɒks/
+newsletter /ˈnjuːzˌlet.ər/ r small
+next /nekst/
+read /riːd/
+subscribe /səbˈskraɪb/
+Thursday /ˈθɜːz.deɪ/
+tuning /ˈtʃuː.nɪŋ/
+website /ˈweb.saɪt/
+week's
+weekly /ˈwiː.kli/
+music /ˈmjuː.zɪk/
+captured
+clients
+completing
+delivered
+dependent /dɪˈpen.dənt/
+designed
+economists
+executing
+furthermore /ˌfɜː.ðəˈmɔːr/ ɔːr : r small
+gatekeepers
+hurdle /ˈhɜː.dəl/ ə small
+hurdles
+letting /ˈlet.ɪŋ/
+pondering
+seems
+shaking
+system's
+thousand /ˈθaʊ.zənd/ zə: ə small
+thousands
+topic /ˈtɒp.ɪk/
+updates
+words
