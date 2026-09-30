@@ -32,6 +32,67 @@ public class SoftPronounce {
 		}
 		rd.close();
 	}
+	
+	static void text_to_pronounce(List<String[]> dictionary, String text, String fileout) throws IOException {
+		/*============================================================
+		 * Method:
+		 *     Split to Token(Words|Punctations)
+		 *     
+		 * If a Token in Directory => replace Token to Dictionary Pronounciation
+		 * 		If The Pronounciation is complex (containing multiples description)
+		 * 			=> Add Parentheses
+		 * If a Token not in Directory => Keep
+		 *============================================================*/
+		
+		String[] words = text.split("[ \t]+");
+		String[] outs = new String[words.length];
+		String pronounce;
+
+		Comparator<String[]> wordComp = Comparator.comparing( (String[] u) -> u[0]);
+		for (int i=0; i<words.length;i++) {
+			int index = Collections.binarySearch(dictionary, new String[] { words[i].toLowerCase() }, wordComp);
+			int countSlash = 0;
+			
+			if (index >= 0) {
+				pronounce = dictionary.get(index)[2];
+				
+				// Null Pronounciation => Keep
+				if (pronounce == null || pronounce.isEmpty()) {
+					outs[i] = words[i];
+				}
+				else {
+					countSlash = 0;
+					for (int j=0; j< pronounce.length(); j++) {
+						if (pronounce.charAt(j) == '/') {
+							countSlash++;
+						}
+					}
+					
+					// Complex (multiple description)? => Add Parentheses
+					if (countSlash > 2 || pronounce.charAt(0) != '/' || pronounce.charAt(pronounce.length()-1) != '/' ) {
+						outs[i] = "(" + pronounce + ")";
+					}
+					else {
+						outs[i] = pronounce;
+					}
+				}
+			}
+			// Not In dictionary => Keep
+			else {
+				outs[i] = words[i];
+			}
+		}
+		
+		// Write to output file
+		BufferedWriter wr = Files.newBufferedWriter(Paths.get(fileout));
+		for (int i=0; i<outs.length; i++) {
+			if (i > 0) {
+				wr.write(" ");
+			}
+			wr.write(outs[i]);
+		}
+		wr.close();
+	}
 
 	public static void main(String[] args) {
 
@@ -39,9 +100,12 @@ public class SoftPronounce {
 			System.out.println(String.format("%d: %s", i, args[i]));
 		}
 		if (args.length < 2){
-			System.out.println("Usage1: SoftPronounce filein fileout");
-			System.out.println("Usage2: SoftPronounce findmissing file_pronounce filecontent");
-			System.out.println("    findmissing: scan text content (filecontent) and find missing words (words which are not defined in file_pronounce). Listing them all.");
+			System.out.println("Usage1: SoftPronounce filedictionary fileout");
+			System.out.println("    Sort words of filedictionary in ascending order and save to fileout");
+			System.out.println("Usage2: SoftPronounce findmissing file_pronounce_dictionary filecontent");
+			System.out.println("    findmissing: scan text content (filecontent) and find missing words (words which are not defined in file_pronounce_dictionary). Listing them all.");
+			System.out.println("Usage 3: SoftPronounce create file_pronounce_dictionary filecontent fileoutput");
+			System.out.println("    create: create Pronounciation file from filecontent, replace words to pronounciation; keep punctuation marks. Save the output the fileoutput");
 			return;
 		}
 		
@@ -49,17 +113,30 @@ public class SoftPronounce {
 		 * Process 
 		 * 
 		 *============================================================*/
-		String filepr = args[0];
+		String file_dict = args[0];
 		String fileout = args[1];
 		String filetxt = null;
+		
 		String operation = null;
 		if (args.length == 3) {
 			// Parameter 3
 			operation = args[0];
-			filepr = args[1];
+			file_dict = args[1];
 			filetxt = args[2];
 			
 			if ("findmissing".compareToIgnoreCase(operation) != 0) {
+				System.out.println("Parameters incorrect");
+				return;
+			}
+			
+		}
+		else if (args.length == 4) {
+			operation = args[0];
+			file_dict = args[1];
+			filetxt = args[2];
+			fileout = args[3];
+			
+			if ("create".compareToIgnoreCase(operation) != 0) {
 				System.out.println("Parameters incorrect");
 				return;
 			}
@@ -71,9 +148,10 @@ public class SoftPronounce {
 		char letter;
 		List<String[]> dict = new ArrayList<String[]>();
 		
-		try (BufferedReader br = new BufferedReader(new FileReader(filepr))) {
+		try (BufferedReader br = new BufferedReader(new FileReader(file_dict))) {
 			String line;
 			String word;
+			String pronounce;
 			
 			while ((line = br.readLine()) != null) {
 				// Parsing
@@ -88,16 +166,18 @@ public class SoftPronounce {
 									
 					if (nB >= 0) {
 						if (nC >= 0 && nC < nB) {
-							word = line.substring(0, nC).trim();							
+							word = line.substring(0, nC).trim();   // Remove word seperator e.g sec.tor => sector
+							pronounce = line.substring(nC).trim();
 						}
 						else {
 							word = line.substring(0, nB).trim();
+							pronounce = line.substring(nB).trim();
 						}
 					} else {
-						word = line.trim(); // Accept words without a pronounce (for other operations). eg a plural form of a word: episodes					
+						word = line.trim(); // Accept words without a pronounce (for other operations). eg a plural form of a word: episodes
+						pronounce = null;
 					}
-					
-					dict.add(new String[] { word.replaceAll("\\.", "").toLowerCase(), line });  // Word can contains separator (the dot .). For example: sec.tor
+					dict.add(new String[] { word.replaceAll("\\.", "").toLowerCase(), line, pronounce });  // Word can contains separator (the dot .). For example: sec.tor
 				}
 			}
 			
@@ -152,6 +232,17 @@ public class SoftPronounce {
 				
 				System.out.println("FINISH find missing");
 			}
+			else if ("create".compareToIgnoreCase(operation) == 0) {
+				String textcontent = "";
+				
+				BufferedReader rd = new BufferedReader(new FileReader(filetxt));
+				while ( (line = rd.readLine()) != null) {
+					textcontent += line + System.lineSeparator();
+				}
+				rd.close();
+				
+				text_to_pronounce(dict, textcontent, fileout);
+			}
 			else {
 				System.out.println("Parameters are not correct.");
 			}
@@ -163,7 +254,6 @@ public class SoftPronounce {
 			e.printStackTrace();
 		}
 		finally {
-			
 		}
 	}
 
