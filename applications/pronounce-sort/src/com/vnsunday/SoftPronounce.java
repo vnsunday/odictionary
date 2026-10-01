@@ -5,7 +5,9 @@ import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -49,6 +51,7 @@ public class SoftPronounce {
 		 * If a Token not in Directory => Keep
 		 *============================================================*/
 		
+		String[] seps = new String[] { " ", "\t", "\n" }; // 
 		String[] tokens = text.split("[ \t]+");
 		String[] outs = new String[tokens.length];
 		String pronounce;
@@ -81,9 +84,10 @@ public class SoftPronounce {
 			}
 			
 			word = sub_str(l, r+1, tokens[i]).toLowerCase();
-			wtrimL = sub_str(0, l-1, tokens[i]).toLowerCase();
+			wtrimL = sub_str(0, l, tokens[i]).toLowerCase();
 			wtrimR = sub_str(r+1, tklen, tokens[i]).toLowerCase();
 			
+			// For Debug Only
 			String[] debug_tokens = new String[] { "sector", "retail"};
 			for (int j=0; j<debug_tokens.length; j++) {
 				if (tokens[i].indexOf(debug_tokens[j]) >= 0) {
@@ -92,6 +96,7 @@ public class SoftPronounce {
 							));
 				}
 			}
+			// For Debug - END
 			
 			int index = Collections.binarySearch(dictionary, new String[] { word }, wordComp);
 			int countSlash = 0;
@@ -137,6 +142,133 @@ public class SoftPronounce {
 		wr.close();
 	}
 
+	static void text_to_pronounce_v2(List<String[]> dictionary, String text, String fileout) throws IOException {
+		char[] seps = new char[] { ' ', '\t', '\n' };
+		
+		int i = 0;
+		int n = text.length();
+		StringBuilder sb = new StringBuilder();
+		String token = "";
+		String outtoken = "";
+		String pronounce;
+		String word = null;
+		String wtrimL;
+		String wtrimR;
+		
+		
+		Comparator<String[]> wordComp = Comparator.comparing( (String[] u) -> u[0]);
+		/*============================================================
+		 * Scanning Left to Right
+		 * 
+		 * S1. If (Reach-The-End) => Process the Accumulated-Token => Append The Result
+		 * S2. If (Current char IsSeparator)
+		 * 				Process the Accumulated-Token. Append The Result
+		 * 				Reset Acculated-Token = ""
+		 * 				Append Current-char to the Result
+		 * S3. If (Current Char IsNot Separator)
+		 * 				Append Current-Char to the Accumulated Token					
+		 *============================================================*/
+		i = 0;
+		while (i <= n) {
+			char ch = 0;
+			boolean isSeparator = false;
+			
+			if (i < n) {
+				ch = text.charAt(i);
+				for (int j=0; j<seps.length;j++) {
+					if (seps[j] == ch) {
+						isSeparator = true;
+						break;
+					}
+				}
+			}
+			
+			// S1 & S2
+			//		Reach-The-End (i==n)
+			//		Current char IsSeparator (i < n && currentchar)
+			// => 
+			//		Process The AccumulatedToken. Append the Result
+			//		Reset Acculated-Token			
+			if ((isSeparator || i == n) && !token.isEmpty()) {
+				// Process the Word
+				// Extract the text content 
+				// Extract Left & Right Non-Text. e.g punctuations; newline;...  
+				// Example "section." => word = section; wtrimL=""; wtrimR = "."
+				int l;
+				int r;
+				int tklen = token.length();
+				l = 0;
+				r = tklen - 1;
+				while (l < tklen && 
+						!((token.charAt(l) >= 'a' && token.charAt(l) <= 'z') ||
+								(token.charAt(l) >= 'A' && token.charAt(l) <= 'Z')) ) 
+				{
+					l++;
+				}
+				while (r >=0 && 
+						!(
+							(token.charAt(r) >= 'a' && token.charAt(r) <= 'z') || 
+							(token.charAt(r) >= 'A' && token.charAt(r) <= 'Z')) ) {
+					r--;
+				}
+				
+				word = sub_str(l, r+1, token).toLowerCase();
+				wtrimL = sub_str(0, l, token).toLowerCase();
+				wtrimR = sub_str(r+1, tklen, token).toLowerCase();
+				// Append to the Output
+				int index = Collections.binarySearch(dictionary, new String[] { word }, wordComp);
+				int countSlash = 0;
+				
+				if (index >= 0) {
+					pronounce = dictionary.get(index)[2];
+					
+					// Null Pronounciation => Keep
+					if (pronounce == null || pronounce.isEmpty()) {
+						outtoken = token;
+					}
+					else {
+						countSlash = 0;
+						for (int j=0; j< pronounce.length(); j++) {
+							if (pronounce.charAt(j) == '/') {
+								countSlash++;
+							}
+						}
+						
+						// Complex (multiple description)? => Add Parentheses
+						if (countSlash > 2 || pronounce.charAt(0) != '/' || pronounce.charAt(pronounce.length()-1) != '/' ) {
+							outtoken = wtrimL + "(" + pronounce + ")" + wtrimR;
+						}
+						else {
+							outtoken = wtrimL + pronounce + wtrimR;
+						}
+					}
+				}
+				// Not In dictionary => Keep
+				else {
+					outtoken = token;
+				}
+				sb.append(outtoken);
+				
+				// Reset current token
+				token = "";
+			}
+			// S2.  IsSeparator => Append the Separator to The-result  (after processing token)
+			if (i < n && isSeparator) {
+				sb.append(ch);
+			}
+			
+			//S3. Not Separator => Append to the accumulatedToken
+			if (i < n && !isSeparator) {
+				token += ch;
+			}
+			i++;
+		}
+		
+		// WRite to the File
+		Path path = Paths.get(fileout);
+		Files.writeString(path, sb.toString(), StandardCharsets.UTF_8);
+	}
+	
 	public static void main(String[] args) {
 
 		for (int i=0; i< args.length; i++) {
@@ -284,7 +416,7 @@ public class SoftPronounce {
 				}
 				rd.close();
 				
-				text_to_pronounce(dict, textcontent, fileout);
+				text_to_pronounce_v2(dict, textcontent, fileout);
 			}
 			else {
 				System.out.println("Parameters are not correct.");
