@@ -33,6 +33,11 @@ public class SoftPronounce {
 		rd.close();
 	}
 	
+	/* is range [start, end-1] inside string with length=len*/
+	static String sub_str(int start, int end, String str) {
+		return (start >= 0 && end <= str.length() && start < end) ? str.substring(start, end) : "";
+	}
+	
 	static void text_to_pronounce(List<String[]> dictionary, String text, String fileout) throws IOException {
 		/*============================================================
 		 * Method:
@@ -44,13 +49,51 @@ public class SoftPronounce {
 		 * If a Token not in Directory => Keep
 		 *============================================================*/
 		
-		String[] words = text.split("[ \t]+");
-		String[] outs = new String[words.length];
+		String[] tokens = text.split("[ \t]+");
+		String[] outs = new String[tokens.length];
 		String pronounce;
+		String word = null;
+		String wtrimL;
+		String wtrimR;
 
 		Comparator<String[]> wordComp = Comparator.comparing( (String[] u) -> u[0]);
-		for (int i=0; i<words.length;i++) {
-			int index = Collections.binarySearch(dictionary, new String[] { words[i].toLowerCase() }, wordComp);
+		for (int i=0; i<tokens.length;i++) {
+			
+			// Extract the text content 
+			// Extract Left & Right Non-Text. e.g punctuations; newline;...  
+			// Example "section." => word = section; wtrimL=""; wtrimR = "."
+			int l;
+			int r;
+			int tklen = tokens[i].length();
+			l = 0;
+			r = tklen - 1;
+			while (l < tokens[i].length() && 
+					!((tokens[i].charAt(l) >= 'a' && tokens[i].charAt(l) <= 'z') ||
+							(tokens[i].charAt(l) >= 'A' && tokens[i].charAt(l) <= 'Z')) ) 
+			{
+				l++;
+			}
+			while (r >=0 && 
+					!(
+						(tokens[i].charAt(r) >= 'a' && tokens[i].charAt(r) <= 'z') || 
+						(tokens[i].charAt(r) >= 'A' && tokens[i].charAt(r) <= 'Z')) ) {
+				r--;
+			}
+			
+			word = sub_str(l, r+1, tokens[i]).toLowerCase();
+			wtrimL = sub_str(0, l-1, tokens[i]).toLowerCase();
+			wtrimR = sub_str(r+1, tklen, tokens[i]).toLowerCase();
+			
+			String[] debug_tokens = new String[] { "sector", "retail"};
+			for (int j=0; j<debug_tokens.length; j++) {
+				if (tokens[i].indexOf(debug_tokens[j]) >= 0) {
+					System.out.println(String.format("Token=%s; trimL=%s; trimR=%s; word=%s", 
+							tokens[i], wtrimL, wtrimR, word
+							));
+				}
+			}
+			
+			int index = Collections.binarySearch(dictionary, new String[] { word }, wordComp);
 			int countSlash = 0;
 			
 			if (index >= 0) {
@@ -58,7 +101,7 @@ public class SoftPronounce {
 				
 				// Null Pronounciation => Keep
 				if (pronounce == null || pronounce.isEmpty()) {
-					outs[i] = words[i];
+					outs[i] = tokens[i];
 				}
 				else {
 					countSlash = 0;
@@ -70,16 +113,16 @@ public class SoftPronounce {
 					
 					// Complex (multiple description)? => Add Parentheses
 					if (countSlash > 2 || pronounce.charAt(0) != '/' || pronounce.charAt(pronounce.length()-1) != '/' ) {
-						outs[i] = "(" + pronounce + ")";
+						outs[i] = wtrimL + "(" + pronounce + ")" + wtrimR;
 					}
 					else {
-						outs[i] = pronounce;
+						outs[i] = wtrimL + pronounce + wtrimR;
 					}
 				}
 			}
 			// Not In dictionary => Keep
 			else {
-				outs[i] = words[i];
+				outs[i] = tokens[i];
 			}
 		}
 		
